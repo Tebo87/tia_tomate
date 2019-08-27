@@ -1,0 +1,21 @@
+.button {
+    padding: .7rem 5rem;
+    border-radius: 100px;
+    font-family: $raleway;
+    font-size: $medium;
+    color: $white;
+
+}
+
+.contact_button {
+    background-color: $white;
+    border: 1px solid $granite_gray;
+    color: $granite_gray;
+
+    &:hover {
+        background-color: $jelly_bean;
+        border-color: 1px solid $granite_gray;;
+        color: $white;
+    }
+
+}
