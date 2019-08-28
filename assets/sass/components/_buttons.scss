@@ -3,11 +3,10 @@
     border-radius: 100px;
     font-family: $raleway;
     font-size: $medium;
-    color: $white;
-
+    font-weight: $bold;
 }
 
-.contact_button {
+.contact__button {
     background-color: $white;
     border: 1px solid $granite_gray;
     color: $granite_gray;
