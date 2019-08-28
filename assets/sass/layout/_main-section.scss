@@ -1,9 +1,6 @@
-.main {
-    font-family: $raleway;
-    
-}
+/*Hero Section*/
 
-.main_hero {
+.hero {
     background-color: $jelly_bean;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -11,33 +8,33 @@
     padding-right: 22%;
 }
 
-.main_container {
-   
+.hero__container { 
     align-items: center;
     width: 100%;
     max-width: 100%;
     height: auto;
 }
 
-.main_hero__title {
+.hero__title {
     color: $white;
     text-align: center;
-    font-family: $raleway;
+    *font-family: $raleway;
     font-weight: $extra_light;
     font-size: $xx-large;
 }
 
-.main_hero__title-emphasis {
+.hero__title--emphasis {
     font-family: $raleway;
     font-weight: $bold;
 }
 
-.main_hero__title-emphasis_size-xxl {
+.hero__title--emphasis_size-xxl {
     font-size: $xx-large;
 }
 
+/*First Section*/
 
-.main_first {
+.first {
     background-color: $taupe_gray;
     color: $white;
     text-align: center;
@@ -45,66 +42,98 @@
     padding-bottom: 3%;
 }
 
-.main_second {
-    background-color: $white;
-    color: $granite_gray;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 3%;
-
+.first__container { 
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
-.main_about {
-    background-color: $white;
-    color: $granite_gray;
-    text-align: center;
-}
-
-.main_about__title {
-    color: $white;
-    background-color: $jelly_bean;
-    text-align: center;
-}
-
-
-.main_about__title-nosotros {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-.main_first__img {
+.first__img {
     position: relative;
     width: 80%;
     max-width: 100%;
     height: 60%;
 }
 
-.main_first__text, .main_second__text {
-    padding-left: 20%;
-    padding-right: 20%;
-    text-align: left;
+/*Second Section*/
+
+.second {
+    background-color: $white;
+    color: $granite_gray;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
+.second__container { 
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
 
-.main_second__img {
+.second__img {
     position: relative;
     width: 80%;
     max-width: 100%;
     height: 30%;
 }
 
-.main_about__img {
+/*About Section*/
+
+.about {
+    background-color: $white;
+    color: $granite_gray;
+    text-align: center;
+}
+
+.about__container { 
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.about__title {
+    color: $white;
+    background-color: $jelly_bean;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: $jelly_bean;
+}
+
+.about__img {
     position: relative;
     width: 30%;
     max-width: 100%;
     height: 60%;
 }
 
-.main_about__text {
+.about__text {
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 5%;
     text-align: left;  
 }
+
+/*Combination*/
+
+.first__text, .second__text {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
 
 
