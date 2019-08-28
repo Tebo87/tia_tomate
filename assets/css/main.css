@@ -87,16 +87,12 @@ p {
   text-align: center;
   *font-family: "Raleway", sans-serif;
   font-weight: 200;
-  font-size: 100px;
 }
 
-.hero__title--emphasis {
-  font-family: "Raleway", sans-serif;
+.hero--size--xxl {
+  font-size: 100px;
   font-weight: 700;
-}
-
-.hero__title--emphasis_size-xxl {
-  font-size: 100px;
+  font-family: "Raleway", sans-serif;
 }
 
 /*First Section*/
@@ -128,7 +124,6 @@ p {
   color: #5D6163;
   text-align: center;
   padding-top: 5%;
-  padding-bottom: 3%;
 }
 
 .second__container {
@@ -159,7 +154,7 @@ p {
   height: auto;
 }
 
-.about__title {
+.about__titleLarge {
   color: #fff;
   background-color: #E56353;
   text-align: center;
@@ -175,11 +170,16 @@ p {
   height: 60%;
 }
 
-.about__text {
+.about__description {
   padding-left: 20%;
   padding-right: 20%;
   padding-bottom: 5%;
   text-align: left;
+}
+
+.about__name {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 /*Combination*/
@@ -187,6 +187,11 @@ p {
   padding-left: 20%;
   padding-right: 20%;
   text-align: left;
+}
+
+.first__title, .second__title {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .contact {
