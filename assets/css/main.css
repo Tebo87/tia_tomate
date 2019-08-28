@@ -1,3 +1,5 @@
+/*Utils*/
+/*Base*/
 /*body {
     height: 100vh;
     background-color: $white;
@@ -45,6 +47,7 @@ p {
   font-size: 18px;
 }
 
+/*Layout*/
 .header {
   background-color: #fff;
 }
@@ -217,6 +220,7 @@ p {
   width: 180px;
 }
 
+/*Components*/
 .button {
   padding: 0.7rem 5rem;
   border-radius: 100px;
