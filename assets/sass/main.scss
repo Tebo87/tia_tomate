@@ -1,15 +1,18 @@
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+/*Utils*/
+@import 'utils/variables';
+@import 'utils/mixins';
 
-
+/*Base*/
 @import 'base/base';
 @import 'base/reset';
 @import 'base/typography';
 
+/*Layout*/
 @import 'layout/header';
 @import 'layout/main-section';
 @import 'layout/contact';
 @import 'layout/footer';
 
+/*Components*/
 @import 'components/buttons';
 
