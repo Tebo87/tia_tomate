@@ -1,18 +1,20 @@
 .header {
     background-color: $white;
-}
 
-.header__container {
+
+    &__container {
     width: 100%;
     max-width: 100%;
     height: auto;
     text-align: left;
 }
 
-.header__logo {
+&__logo {
     width: 300px;
     padding-left: 6rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
 }
 
