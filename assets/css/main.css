@@ -51,14 +51,12 @@ p {
 .header {
   background-color: #fff;
 }
-
 .header__container {
   width: 100%;
   max-width: 100%;
   height: auto;
   text-align: left;
 }
-
 .header__logo {
   width: 300px;
   padding-left: 6rem;
@@ -74,21 +72,18 @@ p {
   padding-left: 22%;
   padding-right: 22%;
 }
-
 .hero__container {
   align-items: center;
   width: 100%;
   max-width: 100%;
   height: auto;
 }
-
 .hero__title {
   color: #fff;
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-weight: 200;
 }
-
 .hero--size--xxl {
   font-size: 100px;
   font-weight: 700;
@@ -103,14 +98,12 @@ p {
   padding-top: 5%;
   padding-bottom: 3%;
 }
-
 .first__container {
   align-items: center;
   width: 100%;
   max-width: 100%;
   height: auto;
 }
-
 .first__img {
   position: relative;
   width: 80%;
@@ -125,14 +118,12 @@ p {
   text-align: center;
   padding-top: 5%;
 }
-
 .second__container {
   align-items: center;
   width: 100%;
   max-width: 100%;
   height: auto;
 }
-
 .second__img {
   position: relative;
   width: 80%;
@@ -146,39 +137,33 @@ p {
   color: #5D6163;
   text-align: center;
 }
-
 .about__container {
   align-items: center;
   width: 100%;
   max-width: 100%;
   height: auto;
 }
-
 .about__titleLarge {
   color: #fff;
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-
 .about--Jelly {
   background-color: #E56353;
 }
-
 .about__img {
   position: relative;
   width: 30%;
   max-width: 100%;
   height: 60%;
 }
-
 .about__description {
   padding-left: 20%;
   padding-right: 20%;
   padding-bottom: 5%;
   text-align: left;
 }
-
 .about__name {
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -201,14 +186,12 @@ p {
   padding-bottom: 5rem;
   padding-top: 2rem;
 }
-
 .contact__container {
   text-align: center;
   width: 100%;
   max-width: 100%;
   height: auto;
 }
-
 .contact__title {
   color: #fff;
 }
@@ -216,13 +199,11 @@ p {
 .footer {
   background-color: #5D6163;
 }
-
 .footer__container {
   text-align: center;
   padding-top: 3%;
   padding-bottom: 3%;
 }
-
 .footer__logo {
   width: 180px;
 }
@@ -235,13 +216,12 @@ p {
   font-size: 18px;
   font-weight: 700;
 }
-
-.contact__button {
+.button {
   background-color: #fff;
   border: 1px solid #5D6163;
   color: #5D6163;
 }
-.contact__button:hover {
+.button:hover {
   background-color: #E56353;
   border-color: 1px solid #5D6163;
   color: #fff;
