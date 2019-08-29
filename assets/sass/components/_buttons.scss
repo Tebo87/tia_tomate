@@ -4,9 +4,9 @@
     font-family: $raleway;
     font-size: $medium;
     font-weight: $bold;
-}
 
-.contact__button {
+
+    & {
     background-color: $white;
     border: 1px solid $granite_gray;
     color: $granite_gray;
@@ -15,6 +15,8 @@
         background-color: $jelly_bean;
         border-color: 1px solid $granite_gray;;
         color: $white;
+    }
+
     }
 
 }
