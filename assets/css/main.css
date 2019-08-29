@@ -85,7 +85,7 @@ p {
 .hero__title {
   color: #fff;
   text-align: center;
-  *font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 200;
 }
 
@@ -156,10 +156,12 @@ p {
 
 .about__titleLarge {
   color: #fff;
-  background-color: #E56353;
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.about--Jelly {
   background-color: #E56353;
 }
 
