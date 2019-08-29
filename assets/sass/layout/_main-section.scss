@@ -18,7 +18,7 @@
 .hero__title {
     color: $white;
     text-align: center;
-    *font-family: $raleway;
+    font-family: $raleway;
     font-weight: $extra_light;
 }
 
@@ -93,10 +93,12 @@
 
 .about__titleLarge {
     color: $white;
-    background-color: $jelly_bean;
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+.about--Jelly {
     background-color: $jelly_bean;
 }
 
